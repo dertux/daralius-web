@@ -15,7 +15,7 @@ const VideoGrid = () => {
             <div key={index} className="relative w-full h-64 bg-gray-200 rounded-lg overflow-hidden shadow-lg">
               <video
                 src={src}
-                autoPlay
+                controls
                 loop
                 muted
                 playsInline

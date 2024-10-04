@@ -117,6 +117,8 @@ export default function DaraliusLanding() {
               src={dev.imgSrc}
               alt={dev.name}
               className="w-full h-full object-cover"
+              width={500}  // Ajusta según el tamaño que necesites
+              height={300} // Ajusta según el tamaño que necesites
             />
           </div>
           <h3 className="text-xl font-semibold mb-2 text-black">{dev.name}</h3>
